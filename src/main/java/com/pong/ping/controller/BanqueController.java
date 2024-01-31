@@ -25,4 +25,8 @@ public class BanqueController {
         banque banque = service.findById(id);
         return new ResponseEntity<>(banque, HttpStatus.OK);
     }
+    @GetMapping("/ping")
+    public String Pingpong(){
+        return "pong";
+    }
 }
