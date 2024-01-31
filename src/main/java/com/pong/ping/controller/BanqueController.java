@@ -30,3 +30,9 @@ public class BanqueController {
         return "pong";
     }
 }
+//        git remote -v
+//        git remote set-url origin https://github.com/herimaharavohaja/pong.git
+//        git remote -v
+//        git add .
+//        git commit -m "test"
+//        git push -u origin master
